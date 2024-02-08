@@ -1,3 +1,5 @@
 <script>
-setInterval(function(){audio = new Audio("https://youareanidiot.cc/media/youare.mp3"),audio.play(audio)},Math.floor(Math.random()*4500))
+ function overlapaudio() {
+  setInterval(function(){audio = new Audio("https://youareanidiot.cc/media/youare.mp3"),audio.play(audio),overlapaudio()},Math.floor(Math.random()*4500))
+ }
 </script>
